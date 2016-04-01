@@ -1,0 +1,178 @@
+# Build settings
+markdown: kramdown
+
+# Site settings
+url: "https://parikhv15.github.io"
+baseurl: ""
+
+# Google tracking id to track visitors
+google-tracking-id: ""
+
+# Forces https everywhere in your website, except when you serve it locally
+# If you are not hosted on Github Pages, and your host doesn't support https
+# then you should disable it
+force-https: True
+
+#############
+# HTML Head #
+#############
+
+lang: "en"
+author: "Vraj Parikh"
+title: "Vraj Parikh"
+description: "Blog and website of Vraj Parikh, which includes information about my background, education and experience, blogging mainly for tech. Opinions expressed are mine."
+keywords: "parikh, vraj, website, blog, developer"
+favicon: "/img/favicon.ico"
+
+################
+# Header layout #
+################
+
+black-favicon: "/img/black-favicon.ico"
+background-img: "../img/intro-bg.jpg"
+
+##############################
+# Dynamic Text on the Header #
+##############################
+
+dynamic-typing: True
+shuffle: True # Shuffle the lines.
+loop: True
+loop-count: False # Set False for infinite loop, or set any number for finite loop.
+type-speed: 5
+start-delay: 100
+delete-delay: 1000
+lines: # You can add HTML Tags in the Text
+  - text: "Full Stack Developer"
+  - text: "Web App Developer"
+
+me-img: "/img/me.jpg"
+
+##############################
+# Color the browser elements #
+##############################
+color-browser: "#000000"
+apple-status-bar-style: "black"
+
+################
+# Web app mode #
+################
+
+web-app-mode: False
+
+# Icons for Web App mode
+
+icon-36p: "/img/web-app/icon-36p.png"
+icon-48p: "/img/web-app/icon-48p.png"
+icon-72p: "/img/web-app/icon-72p.png"
+icon-96p: "/img/web-app/icon-96p.png"
+icon-144p: "/img/web-app/icon-144p.png"
+icon-192p: "/img/web-app/icon-192p.png"
+
+########
+# Blog #
+########
+
+post-preview-words: 100
+
+paginate: 5
+
+email-share: True
+fb-share: True
+twitter-share: True
+linkedin-share: True
+reddit-share: True
+google-plus-share: True
+tumblr-share: False
+pinterest-share: False
+pocket-share: False
+vkontakte-share: False
+
+disqus-shortname: ""
+
+syntax-highlight: True
+
+############
+# Timeline #
+############
+events:
+  - image: "/img/timeline/iu.png"
+    date: "Aug 2015 - Dec 2015"
+    description: "Indiana University Bloomington, United States => Associate Instructor"
+  - image: "/img/timeline/iu.png"
+    date: "Aug 2014 - May 2016"
+    description: "Indiana University Bloomington, United States => Master of Science in Computer Science"
+  - image: "/img/timeline/tesco.jpg"
+    date: "Dec 2013 - May 2014"
+    description: "Tecso Global, India => Software Developer Intern"
+  - image: "/img/timeline/laurentian.jpg"
+    date: "Summer 2013"
+    description: "Laurentian University, Canada => International Experience Program"
+  - image: "/img/timeline/ieee.png"
+    date: "Oct 2013 - May 2014"
+    description: "GCET IEEE Students Branch, India => Technical Head"
+  - image: "/img/timeline/actonate.png"
+    date: "March 2012 - January 2013"
+    description: "Actonate - Activating Innovation, India => Web Developer"
+  - image: "/img/timeline/gcet.jpg"
+    date: "Aug 2010 - May 2014"
+    description: "G H Patel College of Engineering & Technlogy, India => Bachelors of Engineering in Computer Engineering"
+  - image: "/img/timeline/navrachna.png"
+    date: "Aug 2008 - May 2010"
+    description: "Navrachna Vidyani Vidyalaya, India => High School"
+
+# First image of the Timeline
+timeline-img: "/img/timeline/me_kid.png"
+
+###########
+# Contact #
+###########
+
+email: "parikhv@indiana.edu"
+
+##################
+# Social Buttons #
+##################
+
+social:
+  - title: "github"
+    url: "https://github.com/parikhv15"
+  - title: "linkedin"
+    url: "https://www.linkedin.com/in/parikhv"
+  - title: "facebook"
+    url: "https://www.facebook.com/vrajp007"
+  - title: "instagram"
+    url: "https://www.instagram.com/vdon007/"
+  - title: "rss"
+    url: "/feed.xml"
+
+############
+# 404 page #
+############
+
+404-img: "/img/labtocat.png"
+
+################################################################################
+# NB! Tread carefully if you want to change the variables below this point!
+# Sections shown in the index page
+
+pages_list:
+  About: 'about'
+  Blog: 'latest-post'
+  Timeline: 'timeline'
+  Contact: 'contact'
+
+# Exclusion list from the generated _site
+
+exclude: ["LICENSE", "README.md", "scripts"]
+
+# Pagination path
+paginate_path: "blog/page:num/"
+
+# Enable minification SASS
+sass:
+  style: compressed
+
+gems:
+  - jekyll-paginate
+  - jemoji

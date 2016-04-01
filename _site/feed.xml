@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<channel>
+		<title>Vraj Parikh</title>
+		<description>Blog and website of Vraj Parikh, which includes information about my background, education and experience, blogging mainly for tech. Opinions expressed are mine.</description>
+		<link>https://parikhv15.github.io</link>
+		<atom:link href="https://parikhv15.github.io/feed.xml" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>Sample Post</title>
+				
+				
+					<description>&lt;p&gt;Sample Blog Post&lt;/p&gt;
+</description>
+				
+				<pubDate>Fri, 01 Apr 2016 00:00:00 -0400</pubDate>
+				<link>https://parikhv15.github.io/personal/2016/04/01/Sample-Post.html</link>
+				<guid isPermaLink="true">https://parikhv15.github.io/personal/2016/04/01/Sample-Post.html</guid>
+			</item>
+		
+	</channel>
+</rss>
