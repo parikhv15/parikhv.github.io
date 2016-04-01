@@ -1,4 +1,4 @@
-# [yashketkar.github.io](https://yashketkar.github.io/)
+# [Vraj Parikh](https://parikhv15.github.io/)
 
 This is my personal website and blog, which includes information about my background, education and experience. Blogging mainly for tech, Opinions expressed are mine.
 
